@@ -1,12 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
   <style>
-    svg { color: #193849; }
-    .signal { fill: #244fc2; }
-    @media (prefers-color-scheme: dark) {
-      svg { color: #f2f5ff; }
-      .signal { fill: #95afff; }
-    }
+    path { fill: #1a1b20; }
+    @media (prefers-color-scheme: dark) { path { fill: #f4f6fa; } }
   </style>
-  <path fill="currentColor" d="M1 3h12l4 4v4h-4V9l-2-2H5v12h4v4H1zM31 11v18H19l-4-4v-4h4v2l2 2h6V15h-4v-4z"/>
-  <path class="signal" d="M8 11h4l7 7h5v4h-7l-7-7H8z"/>
+  <path d="M1 5h7.5l8.1 16.7L24.2 5H31v1.6l-2.7.6.7 17.7 2.3.5V27H20.8v-1.6l3.2-.6-.6-15.4-8 17.5h-1.3L5.8 10l-.5 14.8 3.2.6V27H.9v-1.6l2.4-.6.8-17.6L1 6.6z"/>
 </svg>

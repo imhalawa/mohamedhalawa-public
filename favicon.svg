@@ -1,11 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
   <style>
     svg { color: #193849; }
-    @media (prefers-color-scheme: dark) { svg { color: #f9f7ee; } }
+    .signal { fill: #244fc2; }
+    @media (prefers-color-scheme: dark) {
+      svg { color: #f2f5ff; }
+      .signal { fill: #95afff; }
+    }
   </style>
-  <g fill="currentColor">
-    <path d="M3 10c5.5-.5 10.1 1.1 15.1 5.1l-1.9 17.6C12.4 28.9 7.5 27.3 2 27.6z"/>
-    <path d="M20.8 14.6C24.7 8.5 30.6 4.7 36.7 3.1L31 21.4c-5.3 1.8-9.6 5.4-13 11.2z"/>
-    <path d="M25.5 28.7c3.2-2.4 6.7-4 10.4-4.8l2.1 4.7c-6.7.5-12.5 2.8-18.8 6.7z"/>
-  </g>
+  <path fill="currentColor" d="M1 3h12l4 4v4h-4V9l-2-2H5v12h4v4H1zM31 11v18H19l-4-4v-4h4v2l2 2h6V15h-4v-4z"/>
+  <path class="signal" d="M8 11h4l7 7h5v4h-7l-7-7H8z"/>
 </svg>

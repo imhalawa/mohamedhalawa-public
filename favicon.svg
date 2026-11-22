@@ -1,1 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><rect width="48" height="48" rx="5" fill="#193949"/><text x="4" y="33" font-family="Georgia,serif" font-weight="bold" font-size="27" letter-spacing="-3" fill="#faf7ef">mh</text><circle cx="42" cy="31" r="2.4" fill="#ffc178"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+  <style>
+    svg { color: #193849; }
+    @media (prefers-color-scheme: dark) { svg { color: #f9f7ee; } }
+  </style>
+  <g fill="currentColor">
+    <path d="M3 10c5.5-.5 10.1 1.1 15.1 5.1l-1.9 17.6C12.4 28.9 7.5 27.3 2 27.6z"/>
+    <path d="M20.8 14.6C24.7 8.5 30.6 4.7 36.7 3.1L31 21.4c-5.3 1.8-9.6 5.4-13 11.2z"/>
+    <path d="M25.5 28.7c3.2-2.4 6.7-4 10.4-4.8l2.1 4.7c-6.7.5-12.5 2.8-18.8 6.7z"/>
+  </g>
+</svg>
